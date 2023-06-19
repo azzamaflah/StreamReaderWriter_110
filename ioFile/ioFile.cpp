@@ -9,4 +9,14 @@ int main() {
 	ofstream outfile;
 	//menunjuk ke sebuah nama file
 	outfile.open("E:\pemdas\contohfile.txt");
+
+	cout << ">= Menulis file, \'q\' untuk keluar " << endl;
+
+
+	//untlimited loop untuk menulis
+	while (true) {
+		//mendapatkan setiap karakter dalam satu baris
+		getlin(cin, baris);
+		
+	}
 }
