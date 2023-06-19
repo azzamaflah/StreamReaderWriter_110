@@ -17,6 +17,9 @@ int main() {
 	while (true) {
 		//mendapatkan setiap karakter dalam satu baris
 		getlin(cin, baris);
-		
+		//loop akan berhenti jika user memasukan karakter 
+		if (baris == "q")break;
+		//menulis dan memasukan nilai dari 'baris' ke dalam file
+		outfile << baris << endl;
 	}
 }
