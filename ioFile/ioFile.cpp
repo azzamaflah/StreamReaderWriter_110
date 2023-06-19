@@ -9,7 +9,7 @@ int main() {
 	// membuka file dalam mode menulis.
 	ofstream outfile;
 	//menunjuk ke sebuah nama file
-	outfile.open("E:\pemdas\contohfile.txt");
+	outfile.open("E:\\pemdas\contohfile.txt");
 
 	cout << ">= Menulis file, \'q\' untuk keluar " << endl;
 
@@ -17,7 +17,7 @@ int main() {
 	//untlimited loop untuk menulis
 	while (true) {
 		//mendapatkan setiap karakter dalam satu baris
-		getlin(cin, baris);
+		getline(cin, baris);
 		//loop akan berhenti jika user memasukan karakter 
 		if (baris == "q")break;
 		//menulis dan memasukan nilai dari 'baris' ke dalam file
@@ -29,7 +29,7 @@ int main() {
 	//membuka file dalam mode membaca
 	ifstream infile;
 	//menunjuk ke sebuah file
-	infile.open("E:\pemdas\contohfile.txt");
+	infile.open("E:\\pemdas\contohfile.txt");
 
 	cout << endl << ">= membuka dan membaca file " << endl;
 	//jika file ada maka
