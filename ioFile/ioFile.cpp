@@ -20,6 +20,6 @@ int main() {
 		//loop akan berhenti jika user memasukan karakter 
 		if (baris == "q")break;
 		//menulis dan memasukan nilai dari 'baris' ke dalam file
-		outfile << baris << endl;
+		outfile << baris << endl; 
 	}
 }
